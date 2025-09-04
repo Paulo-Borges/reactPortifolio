@@ -1,0 +1,26 @@
+const Header = () => {
+  return (
+    <header className="flex justify-around items-center  bg-gray-800 text-white gap-5 w-[1280px] h-[100px] border border-white">
+      <div>
+        <a href="https://github.com/Paulo-Borges" target="_blank">
+          Dev<span className="text-amber-300">Borges</span>
+        </a>
+      </div>
+      <nav className="flex gap-10">
+        <a href="/">Inicio</a>
+        <a href="/especilidades">Especialidades</a>
+        <a href="/sobre">Sobre</a>
+        <a href="/projetos">Projetos</a>
+      </nav>
+      <div className="">
+        <button className="bg-amber-300/60  rounded-3xl hover:bg-amber-300 flex w-[100px] h-[40px] justify-center items-center">
+          <a href="/contato" className="text-sm font-semibold">
+            Contato
+          </a>
+        </button>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
