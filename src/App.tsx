@@ -6,10 +6,10 @@ function App() {
       <Header />
       <div className="flex justify-around items-center pt-28 w-[1280px] h-[500px] gap-9 border border-white">
         <main className="flex flex-col w-[780px] mt-20 justify-start items-start text-center gap-10">
-          <h1 className="flex capitalize text-4xl font-bold my-10 ">
+          <h1 className="flex capitalize text-4xl font-bold my-10 text-white ">
             Transformando ideias em realidade digital.
           </h1>
-          <p className="flex items-start text-start">
+          <p className="flex items-start text-start text-white">
             Olá! Sou um desenvolvedor front-end apaixonado por criar
             experiências digitais envolventes e funcionais. Com habilidades em
             HTML, CSS e JavaScript, transformo designs em sites responsivos e
@@ -28,8 +28,12 @@ function App() {
             </button>
           </div>
         </main>
-        <div className="w-[400px] h-[300px] rounded-3xl overflow-hidden border-1 border-amber-300">
-          <img src="../public/Borges.jpg" alt="Desenvolvedor" />
+        <div className="w-[400px] h-[300px] rounded-3xl overflow-hidden ">
+          <img
+            src="./Borges.jpg"
+            alt="Desenvolvedor"
+            className="animate-flutuar relative"
+          />
         </div>
       </div>
     </>
