@@ -7,10 +7,30 @@ const Header = () => {
         </a>
       </div>
       <nav className="flex gap-10">
-        <a href="/">Inicio</a>
-        <a href="/especilidades">Especialidades</a>
-        <a href="/sobre">Sobre</a>
-        <a href="/projetos">Projetos</a>
+        <a
+          href="/"
+          className="border-b hover:border-amber-300/80 border-transparent transition-all duration-300"
+        >
+          Inicio
+        </a>
+        <a
+          href="/especilidades"
+          className="border-b hover:border-amber-300/80 border-transparent transition-all duration-300"
+        >
+          Especialidades
+        </a>
+        <a
+          href="/sobre"
+          className="border-b hover:border-amber-300/80 border-transparent transition-all duration-300"
+        >
+          Sobre
+        </a>
+        <a
+          href="/projetos"
+          className="border-b hover:border-amber-300/80 border-transparent transition-all duration-300"
+        >
+          Projetos
+        </a>
       </nav>
       <div className="">
         <button className="bg-amber-300/60  rounded-3xl hover:bg-amber-300 flex w-[100px] h-[40px] justify-center items-center">
