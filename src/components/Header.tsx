@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="flex justify-around items-center  bg-gray-800 text-white gap-5 w-[1280px] h-[100px] border border-white">
+    <header className="flex justify-around lg:justify-between items-center  bg-gray-800 text-white gap-5 w-[1280px] lg:w-[1000px] h-[100px] ">
       <div>
         <a href="https://github.com/Paulo-Borges" target="_blank">
           Dev<span className="text-amber-300">Borges</span>
