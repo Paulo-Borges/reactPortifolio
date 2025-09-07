@@ -27,7 +27,7 @@ function App() {
           <div className="">
             <button className="bg-amber-300/60 rounded-3xl hover:bg-amber-300 flex w-[200px] h-[60px] justify-center items-center">
               <a
-                href="/projetos"
+                href="#projetos"
                 className="text-sm text-amber-50 font-semibold"
               >
                 Veja meus projetos
@@ -43,7 +43,7 @@ function App() {
           />
         </div>
       </div>
-      <section className="flex flex-col justify-around items-center pt-28 w-[1280px] lg:w-[1000px] h-[500px] gap-9 ">
+      <section id="especialidades" className="flex flex-col justify-around items-center pt-28 w-[1280px] lg:w-[1000px] h-[500px] gap-9 ">
         <h1 className="flex capitalize text-4xl font-bold my-10 text-white ">
           Minhas Especialidades
         </h1>
