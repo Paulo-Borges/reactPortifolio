@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
+/* configurações gerais  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e2939;
+}
+
+/* Animação do Inicio  */
 @theme {
   --animate-flutuar: flutuar 2s ease-in-out infinite alternate;
   @keyframes flutuar {
@@ -12,17 +27,30 @@
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+/* Animações das Imagens do Portfólio  */
+.bg-custom-image {
+  background-image: url("/fylo.jpeg");
+  background-size: cover;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  transition: 6s;
 }
-body {
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #1e2939;
- 
+.bg-custom-image1 {
+  background-image: url("/extension.jpeg");
+  background-size: cover;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  transition: 6s;
+}
+.bg-custom-image2 {
+  background-image: url("/inwood.jpeg");
+  background-size: cover;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  transition: 6s;
+}
+.bg-custom-image:hover,
+.bg-custom-image1:hover,
+.bg-custom-image2:hover {
+  background-position: 0% 100%;
 }
