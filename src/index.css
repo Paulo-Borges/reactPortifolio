@@ -15,7 +15,7 @@ body {
 }
 
 /* Animação do Inicio  */
-@theme {
+/* @theme {
   --animate-flutuar: flutuar 2s ease-in-out infinite alternate;
   @keyframes flutuar {
     0% {
@@ -24,6 +24,19 @@ body {
     100% {
       right: 30px;
     }
+  }
+} */
+
+/* tirando o ERRO que estava dando no @theme  */
+.animate-flutuar {
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 30px;
   }
 }
 
