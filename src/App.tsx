@@ -3,6 +3,11 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
+import eu from "/Borges.jpg";
+import { Link } from "react-router";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 function App() {
   return (
@@ -37,13 +42,16 @@ function App() {
         </main>
         <div className="w-[400px] h-[300px] rounded-3xl overflow-hidden ">
           <img
-            src="./Borges.jpg"
+            src={eu}
             alt="Desenvolvedor"
             className="animate-flutuar relative"
           />
         </div>
       </div>
-      <section id="especialidades" className="flex flex-col justify-around items-center pt-28 w-[1280px] lg:w-[1000px] h-[500px] gap-9 ">
+      <section
+        id="especialidades"
+        className="flex flex-col justify-around items-center pt-28 w-[1280px] lg:w-[1000px] h-[500px] gap-9 "
+      >
         <h1 className="flex capitalize text-4xl font-bold my-10 text-white ">
           Minhas Especialidades
         </h1>
@@ -92,6 +100,54 @@ function App() {
               antes de o código ser executado.
             </p>
           </div>
+        </div>
+      </section>
+      <section
+        id="sobre"
+        className="flex justify-around items-center pt-28 w-[1280px] lg:w-[1000px] h-[500px] gap-9 "
+      >
+        <div className="flex flex-col gap-5">
+          <img src={eu} alt="desenvolvedor" />
+          <div className="flex justify-center gap-7">
+            <Link to="https://github.com/Paulo-Borges" target="_blank">
+              <FaGithub />
+            </Link>
+
+            <Link
+              to="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </Link>
+
+            <Link to="https://www.instagram.com/devborges8/" target="_blank">
+              <FaInstagram />
+            </Link>
+          </div>
+        </div>
+        <div>
+          <h2>muito prazer</h2>
+          <h3>sou Desenvolvedor Borges</h3>
+          <p>
+            Minha jornada como desenvolvedor é guiada pela paixão em transformar
+            ideias em realidade digital. Com uma base sólida em HTML, CSS e
+            JavaScript, eu me especializei na criação de experiências de usuário
+            dinâmicas e responsivas, utilizando o poder do React no front-end.
+            No back-end, utilizo Node.js e Express para construir APIs robustas
+            e escaláveis, gerenciando dados de forma eficiente com o MongoDB.
+            Meu conhecimento em TypeScript garante que o código seja não apenas
+            funcional, mas também mais seguro e fácil de manter em projetos de
+            grande escala.
+          </p>
+          <p>
+            Além disso, tenho domínio em Tailwind CSS, o que me permite criar
+            interfaces modernas e personalizadas com agilidade, mantendo um
+            design consistente e de alta qualidade. O que me motiva é a busca
+            constante por desafios e a oportunidade de criar soluções completas,
+            que unem um design elegante no front-end a uma arquitetura sólida no
+            back-end. Estou sempre pronto para colaborar em projetos inovadores
+            e que buscam resolver problemas de forma criativa e eficaz.
+          </p>
         </div>
       </section>
     </>
