@@ -8,6 +8,7 @@ import { Link } from "react-router";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -249,6 +250,7 @@ function App() {
           </button>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
