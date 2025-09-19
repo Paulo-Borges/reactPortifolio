@@ -12,13 +12,13 @@ const Footer = () => {
     <footer className="flex justify-around lg:justify-between items-center  bg-gray-800 text-white gap-5 w-[1280px] lg:w-[1000px] h-[100px] border-t border-amber-300/60  ">
       <div className="flex gap-5 ">
         <Link to="https://github.com/Paulo-Borges" target="_blank">
-         <FaGithub className="text-amber-300/60" />
+         <FaGithub className="text-amber-300/60 hover:text-amber-300" />
         </Link>
         <Link to="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/" target="_blank">
-         <FaLinkedin className="text-amber-300/60" />
+         <FaLinkedin className="text-amber-300/60 hover:text-amber-300" />
         </Link>
         <Link to="https://www.instagram.com/devborges8/" target="_blank">
-        <FaInstagram className="text-amber-300/60" />
+        <FaInstagram className="text-amber-300/60 hover:text-amber-300" />
         </Link>
       </div>
       <div>
