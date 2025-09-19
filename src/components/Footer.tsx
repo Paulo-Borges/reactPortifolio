@@ -9,17 +9,20 @@ const Footer = () => {
 
 
   return (
-    <footer className="flex justify-around lg:justify-between items-center  bg-gray-800 text-white gap-5 w-[1280px] lg:w-[1000px] h-[100px] ">
-      <div>
+    <footer className="flex justify-around lg:justify-between items-center  bg-gray-800 text-white gap-5 w-[1280px] lg:w-[1000px] h-[100px] border-t border-amber-300/60  ">
+      <div className="flex gap-5 ">
         <Link to="https://github.com/Paulo-Borges" target="_blank">
-         <FaGithub className="" />
+         <FaGithub className="text-amber-300/60" />
         </Link>
         <Link to="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/" target="_blank">
-         <FaLinkedin />
+         <FaLinkedin className="text-amber-300/60" />
         </Link>
         <Link to="https://www.instagram.com/devborges8/" target="_blank">
-        <FaInstagram />
+        <FaInstagram className="text-amber-300/60" />
         </Link>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/" target="_blank">Dev<span className="text-amber-300/60">Borges</span></a>
       </div>
    
     
