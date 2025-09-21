@@ -11,6 +11,8 @@ import { FaInstagram } from "react-icons/fa";
 import Footer from "./components/Footer";
 
 function App() {
+
+
   return (
     <>
       <Header />
@@ -213,6 +215,9 @@ function App() {
           </div>
         </div>
       </section>
+      <div className="flex justify-end m-6 text-amber-300/30 hover:text-amber-300">
+        <button className="m-6"> Mais projetos...</button>
+      </div>
       <section
         id="contato"
         className="flex flex-col items-center pt-28 w-[1280px] lg:w-[1000px] h-[500px] gap-9"
