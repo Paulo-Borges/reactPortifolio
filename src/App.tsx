@@ -7,10 +7,7 @@ import Projetos from "./components/Projetos";
 import eu from "/Borges.jpg";
 import Contato from "./components/Contato";
 
-
 function App() {
-
-
   return (
     <>
       <Header />
@@ -24,17 +21,15 @@ function App() {
           />
         </div>
       </div>
-    <Specialties />
-     <Sobre />
+      <Specialties />
+      <Sobre />
       <Projetos />
-        <div className="flex justify-end m-6 text-amber-300/30 hover:text-amber-300">
+      <div className="flex justify-end m-6 text-amber-300/30 hover:text-amber-300">
         <button className="m-6"> Mais projetos...</button>
       </div>
       <Contato />
-     
       <Footer />
     </>
   );
 }
-
 export default App;
