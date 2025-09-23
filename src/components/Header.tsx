@@ -10,10 +10,12 @@ const Header = () => {
         </Link>
       </div>
       <nav className="flex gap-10">
-        <Linkar to="#inicio">Inicio</Linkar>
-        <Linkar to="#especialidades">Especialidades</Linkar>
-        <Linkar to="#sobre">Sobre</Linkar>
-        <Linkar to="#projetos">Projetos</Linkar>
+        <Linkar to={"https://localhost:5173/#inicio"}>Inicio</Linkar>
+        <Linkar to={"https://localhost:5173/#especialidades"}>
+          Especialidades
+        </Linkar>
+        <Linkar to={"https://localhost:5173/#sobre"}>Sobre</Linkar>
+        <Linkar to={"https://localhost:5173/#projetos"}>Projetos</Linkar>
       </nav>
       <div className="">
         <button className="bg-amber-300/60  rounded-3xl hover:bg-amber-300 flex w-[100px] h-[40px] justify-center items-center">
