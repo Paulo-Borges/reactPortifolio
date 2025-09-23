@@ -19,7 +19,7 @@ const Inithial = () => {
       <div className="">
         <button className="bg-amber-300/60 rounded-3xl hover:bg-amber-300 flex w-[200px] h-[60px] justify-center items-center">
           <Link
-            to={"#projetos"}
+            to={"https://localhost:5173/#projetos"}
             className="text-sm text-amber-50 font-semibold"
           >
             Veja meus projetos
