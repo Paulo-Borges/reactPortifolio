@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Linkar from "./Linkar";
 
 const Header = () => {
   return (
@@ -10,18 +9,16 @@ const Header = () => {
         </Link>
       </div>
       <nav className="flex gap-10">
-        <Linkar to={"https://localhost:5173/#inicio"}>Inicio</Linkar>
-        <Linkar to={"https://localhost:5173/#especialidades"}>
-          Especialidades
-        </Linkar>
-        <Linkar to={"https://localhost:5173/#sobre"}>Sobre</Linkar>
-        <Linkar to={"https://localhost:5173/#projetos"}>Projetos</Linkar>
+        <a href="#inicio">Inicio</a>
+        <a href="/#especialidades">Especialidades</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
       </nav>
       <div className="">
         <button className="bg-amber-300/60  rounded-3xl hover:bg-amber-300 flex w-[100px] h-[40px] justify-center items-center">
-          <Link to="#contato" className="text-sm font-medium">
+          <a href="#contato" className="text-sm font-medium">
             Contato
-          </Link>
+          </a>
         </button>
       </div>
     </header>
