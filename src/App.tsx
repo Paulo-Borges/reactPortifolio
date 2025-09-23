@@ -24,9 +24,6 @@ function App() {
       <Specialties />
       <Sobre />
       <Projetos />
-      <div className="flex justify-end m-6 text-amber-300/30 hover:text-amber-300">
-        <button className="m-6"> Mais projetos...</button>
-      </div>
       <Contato />
       <Footer />
     </>
