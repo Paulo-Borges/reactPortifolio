@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Linkar from "./Linkar";
 
 const Header = () => {
   return (
@@ -9,36 +10,16 @@ const Header = () => {
         </Link>
       </div>
       <nav className="flex gap-10">
-        <a
-          href="#inicio"
-          className="border-b hover:border-amber-300/80 border-transparent transition-all duration-300"
-        >
-          Inicio
-        </a>
-        <a
-          href="#especialidades"
-          className="border-b hover:border-amber-300/80 border-transparent transition-all duration-300"
-        >
-          Especialidades
-        </a>
-        <a
-          href="#sobre"
-          className="border-b hover:border-amber-300/80 border-transparent transition-all duration-300"
-        >
-          Sobre
-        </a>
-        <a
-          href="#projetos"
-          className="border-b hover:border-amber-300/80 border-transparent transition-all duration-300"
-        >
-          Projetos
-        </a>
+        <Linkar to="#inicio">Inicio</Linkar>
+        <Linkar to="#especialidades">Especialidades</Linkar>
+        <Linkar to="#sobre">Sobre</Linkar>
+        <Linkar to="#projetos">Projetos</Linkar>
       </nav>
       <div className="">
         <button className="bg-amber-300/60  rounded-3xl hover:bg-amber-300 flex w-[100px] h-[40px] justify-center items-center">
-          <a href="#contato" className="text-sm font-medium">
+          <Link to="#contato" className="text-sm font-medium">
             Contato
-          </a>
+          </Link>
         </button>
       </div>
     </header>
