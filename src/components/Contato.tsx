@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import Input from "./Input";
 
 const Contato = () => {
   return (
@@ -10,25 +11,13 @@ const Contato = () => {
         FALA COMIGO
       </h1>
       <form className=" flex flex-col gap-2">
-        <input
-          type="text"
-          placeholder="Seu nome"
-          className="bg-amber-300/10 rounded-md h-[40px] w-[300px] text-amber-50 placeholder:text-amber-50/50 placeholder:pl-2"
-        />
-        <input
-          type="email"
-          placeholder="Seu email"
-          className="bg-amber-300/10 rounded-md h-[40px] w-[300px]  text-amber-50 placeholder:text-amber-50/50 placeholder:pl-2"
-        />
-        <input
-          type="tel"
-          placeholder="Seu celular"
-          className="bg-amber-300/10 rounded-md h-[40px] w-[300px]  text-amber-50 placeholder:text-amber-50/50 placeholder:pl-2"
-        />
-        <input
+        <Input type="text" placeholder="Seu nome" />
+        <Input type="email" placeholder="Seu email" />
+        <Input type="tel" placeholder="Seu celular" />
+        <Input
           type="text"
           placeholder="Sua mensagem"
-          className="bg-amber-300/10 rounded-md h-[140px] w-[300px]  text-amber-50 placeholder:text-amber-50/50 placeholder:pl-2"
+          className="bg-amber-300/10 rounded-xl  h-[140px] w-[300px]  text-amber-50 placeholder:text-amber-50/50 placeholder:pl-2"
         />
       </form>
       <div className="mb-10">
