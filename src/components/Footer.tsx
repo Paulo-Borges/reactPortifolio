@@ -22,12 +22,12 @@ const Footer = () => {
         </Link>
       </div>
       <div>
-        <a
-          href="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/"
+        <Link
+          to="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/"
           target="_blank"
         >
           Dev<span className="text-amber-300/60">Borges</span>
-        </a>
+        </Link>
       </div>
     </footer>
   );
