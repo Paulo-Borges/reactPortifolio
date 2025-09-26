@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
@@ -9,16 +10,16 @@ const Header = () => {
         </Link>
       </div>
       <nav className="flex gap-10">
-        <a href="#inicio">Inicio</a>
-        <a href="/#especialidades">Especialidades</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#projetos">Projetos</a>
+        <HashLink to="#inicio">Inicio</HashLink>
+        <HashLink to="#especialidades">Especialidades</HashLink>
+        <HashLink to="#sobre">Sobre</HashLink>
+        <HashLink to="#projetos">Projetos</HashLink>
       </nav>
       <div className="">
         <button className="bg-amber-300/60  rounded-3xl hover:bg-amber-300 flex w-[100px] h-[40px] justify-center items-center">
-          <a href="#contato" className="text-sm font-medium">
+          <HashLink to="#contato" className="text-sm font-medium">
             Contato
-          </a>
+          </HashLink>
         </button>
       </div>
     </header>
