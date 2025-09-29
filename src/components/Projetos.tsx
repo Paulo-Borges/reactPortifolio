@@ -16,7 +16,7 @@ const Projetos = () => {
         MEU PORTFÓLIO.
       </h1>
       <div className="flex w-[1200] gap-4">
-        <div className="bg-custom-image w-[300px] h-[400px] relative rounded-2xl ">
+        <div className=" w-relative rounded-2xl ">
           <div className="absolute top-0 left-0 w-full h-full bg-amber-300/30 flex items-center justify-center cursor-pointer opacity-0 hover:opacity-100 transition 3s rounded-2xl">
             <Link
               to="https://paulo-borges.github.io/fylo/"

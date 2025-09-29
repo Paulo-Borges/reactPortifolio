@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import Input from "./Input";
+import { HashLink } from "react-router-hash-link";
 
 const Contato = () => {
   return (
@@ -22,9 +22,9 @@ const Contato = () => {
       </form>
       <div className="mb-10">
         <button className="bg-amber-300/60  rounded-3xl hover:bg-amber-300 flex w-[100px] h-[40px] justify-center items-center ">
-          <Link to="#contato" className="text-sm text-amber-50 font-medium">
+          <HashLink to="/#inicio" className="text-sm text-amber-50 font-medium">
             Enviar
-          </Link>
+          </HashLink>
         </button>
       </div>
     </section>

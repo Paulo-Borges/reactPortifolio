@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import url("./assets/fylo.jpeg");
+@import url("./assets/extension.jpeg");
+@import url("./assets/inwood.jpeg");
 
 /* configurações gerais  */
 * {
@@ -42,25 +45,34 @@ body {
 
 /* Animações das Imagens do Portfólio  */
 .bg-custom-image {
-  background-image: url("/fylo.jpeg");
+  border-radius: 12px;
+  background-image: url("./assets/fylo.jpeg");
   background-size: cover;
   background-position: 100% 0%;
   background-repeat: no-repeat;
   transition: 6s;
+  height: 400px; /* Defina uma altura para a div */
+  width: 300px;
 }
 .bg-custom-image1 {
-  background-image: url("/extension.jpeg");
+  border-radius: 12px;
+  background-image: url("./assets/extension.jpeg");
   background-size: cover;
   background-position: 100% 0%;
   background-repeat: no-repeat;
   transition: 6s;
+  height: 400px; /* Defina uma altura para a div */
+  width: 300px;
 }
 .bg-custom-image2 {
-  background-image: url("/inwood.jpeg");
+  border-radius: 12px;
+  background-image: url("./assets/inwood.jpeg");
   background-size: cover;
   background-position: 100% 0%;
   background-repeat: no-repeat;
   transition: 6s;
+  height: 400px; /* Defina uma altura para a div */
+  width: 300px;
 }
 .bg-custom-image:hover,
 .bg-custom-image1:hover,

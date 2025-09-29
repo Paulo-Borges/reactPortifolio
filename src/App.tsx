@@ -3,9 +3,9 @@ import Footer from "./components/Footer";
 import Inithial from "./components/Inithial";
 import Specialties from "./components/Specialties";
 import Sobre from "./components/Sobre";
-import Projetos from "./components/Projetos";
 import eu from "/Borges.jpg";
 import Contato from "./components/Contato";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       </div>
       <Specialties />
       <Sobre />
-      <Projetos />
+      <Project />
       <Contato />
       <Footer />
     </>
