@@ -20,9 +20,9 @@ const Project = () => {
       link: "https://paulo-borges.github.io/extensionBrowser/",
     },
     {
-      name: "inwood",
+      name: "burger",
       imageClass: "bg-custom-image2",
-      link: "https://paulo-borges.github.io/inwood/",
+      link: "https://paulo-borges.github.io/robburger/",
     },
   ];
 
